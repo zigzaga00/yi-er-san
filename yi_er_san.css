@@ -1,0 +1,49 @@
+.output {
+    width: 450px;
+    text-align: center;
+    font-size: 2em;
+    display: inline-block;
+}
+
+button {
+    padding: 10px;
+    text-align: center;
+    width: 450px;
+}
+
+.dicer {
+    border: 1px solid black;
+    width: 90px;
+    height: 90px;
+    padding: 2px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    /* display: inline-block; */
+}
+
+.dot {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 1px;
+}
+
+.black {
+    background-color: black;
+}
+
+.player {
+    display: inline-block;
+    width: 200px;
+    height: 350px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.player__name {
+    font-family: cursive;
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
