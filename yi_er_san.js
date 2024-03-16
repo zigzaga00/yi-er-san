@@ -139,6 +139,10 @@ buttonP2.addEventListener("click", function () {
     updateOutput(playerTwoDieTwo, rolls[1]);
     updateOutput(playerTwoDieThree, rolls[2]);
     let temp = checkWinner();
-    output.innerHTML = temp;
+    if ( temp === "Draw" ) {
+        output.innerHTML = temp;
+    } else {
+        output.innerHTML = `${temp} Wins!`;
+    }
 }
 )
